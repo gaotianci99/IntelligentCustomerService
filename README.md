@@ -29,13 +29,13 @@ python -m venv <项目环境名称>
 ```
 ## 1.2 拉取项目
 ```bash
-git clone xxx
+git clone https://github.com/gaotianci99/IntelligentCustomerService.git
 ```
 ## 1.3 安装项目依赖
 
 ```bash
 # 进入项目根目录
-cd ~/path/to/your_project
+cd IntelligentCustomerService
 # 安装项目依赖
 pip install -r requirements.txt
 ```
@@ -51,13 +51,10 @@ setx DASHSCOPE_API_KEY "your_aliyun-bailian_api_key"
 ## 2.1 拷贝项目到本地
 ```bash
 # 进入项目根目录
-cd ~/path/to/your_project
-# 拉取项目
-git clone 
+cd IntelligentCustomerService
 ```
 
-
-## 2.3 将知识库添加到向量数据库
+## 2.2 将知识库添加到向量数据库
 ```
 streamlit run .\app_file_uploader.py
 ```
@@ -65,10 +62,9 @@ streamlit run .\app_file_uploader.py
 ![img.png](images/img1.png)
 > 注意：添加完知识库后，这个服务可以关闭
 
-## 2.4 开始智能客服前端
+## 2.3 开始智能客服前端
 ```bash
 streamlit run .\app_qa.py 
 ```
 生成一个url并访问: http://localhost:8501
 ![img.png](images/img2.png)
-
